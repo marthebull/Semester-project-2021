@@ -30,6 +30,7 @@ h3, .h3, a {
     border-radius: 40px;
     background-color: #FFC37D;
     text-align: center;
+    margin: 20px auto;
 }
 
 .blue {
@@ -191,6 +192,7 @@ input, textarea {
     padding: 10px;
     outline: none;
     resize: none;
+    width: 100%;
 }
 
 /* NEWS SECTION ----------------------------------------------------------------------------------------------------*/
@@ -203,6 +205,17 @@ input, textarea {
 /* FOOTER ----------------------------------------------------------------------------------------------------------*/
 
 footer {
-    background-color: #181680;
+    background: #181680 url(icons/Logo/CS-logo-blueblue.svg) no-repeat center;
+    background-size: cover;
+    padding: 20px;
+    color: white;
+}
+
+#map {
+    display: none;
+}
+
+.copyright {
+    text-align: center;
 }
 
