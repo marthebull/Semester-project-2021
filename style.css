@@ -224,7 +224,7 @@ input[type=search] {
     letter-spacing: .3rem;
 }
 
-.navbar a {
+.header-home .navbar a {
     color: white;
 }
 
