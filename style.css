@@ -11,6 +11,7 @@ h1, h2, .h1 {
     font-family: 'Jost', Verdana, Tahoma, sans-serif;
     font-size: 1.5rem;
     font-weight: 900;
+    color: #181680;
 }
 
 h3, .h3, a {
@@ -52,6 +53,11 @@ hr {
     border: 3px solid #181680;
 }
 
+.hr {
+    width: 50px;
+    border: 1px solid #181680;
+}
+
 .circle {
     border-radius: 50%;
     width: 250px;
@@ -65,3 +71,8 @@ hr {
 .small {
     width: 80px;
 }
+
+.icon {
+    width: 30px;
+}
+
