@@ -2,6 +2,8 @@
 
 * { 
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', Verdana, Tahoma, sans-serif;
     font-size: .9rem;
     letter-spacing: 0.1rem;
@@ -36,7 +38,7 @@ h3, .h3, a {
 }
 
 .orange {
-    color: #FFC37D;
+    background-color: #FFC37D;
 }
 
 .dark {
@@ -65,14 +67,82 @@ hr {
 }
 
 .medium {
+    padding: 70px;
     width: 140px;
+    height: 140px;
 }
 
 .small {
+    padding: 40px;
     width: 80px;
+    height: 80px;
 }
 
-.icon {
-    width: 30px;
+.icon, .logo {
+    height: 25px;
 }
 
+
+/* HEADER -----------------------*/
+
+.navbar {
+    min-height: 70px;
+    padding: 20px;
+    position: relative;
+}
+
+nav, input[type=search], #hamburger-menu {
+    display: none;
+}
+
+.menu-icon {
+    position: absolute;
+    right: 20px;
+}
+
+nav a {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;
+}
+
+#hamburger-menu:checked ~ form > input[type=search] {
+    display: block;
+}
+
+input[type=search] {
+    background: url(Icons/magnifying-glass-blue.svg) no-repeat;
+    background-size: 20px;
+    background-position: 10px;
+    padding-left: 40px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+.active {
+    font-weight: bold;
+}
+
+/* FORMS -------------------------------------*/
+
+input {
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+    box-shadow: inset 0px 2px 5px 2px lightgrey;
+    padding: 10px;
+    outline: none;
+}
+
+
+/* NEWS SECTION ------------------------------*/
+
+.news {
+    background-color: #DBC8FB;
+    padding: 20px;
+}
