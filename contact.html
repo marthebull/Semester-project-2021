@@ -34,20 +34,25 @@
             </div>
         </header>
         <main>
-            <section>
+            <section class="light">
                 <h1>CONTACT</h1>
-                <div class="circle big blue o-shade"></div>
-                <div class="circle small blue o-shade"></div>
-                <div class="circle small dark o-shade"></div>
+                <hr class="hr-blue">
+                <div class="circle big blue o-shade extra"></div>
+                <div class="circle small blue o-shade extra"></div>
+                <div class="circle small dark o-shade extra"></div>
                 <form action="index.html" method="GET">
-                    <input type="email" placeholder="Email-address">
-                    <input type="text" placeholder="Full name">
-                    <input type="text" placeholder="Title">
-                    <input type="text" placeholder="Subject">
+                    <div>
+                        <input type="email" placeholder="Email address">
+                        <input type="text" placeholder="Full name">
+                        <input type="text" placeholder="Title">
+                        <input type="text" placeholder="Subject">
+                    </div>
                     <textarea name="message" cols="30" rows="10" id="message" placeholder="Message"></textarea>
-                    <input type="checkbox" name="checkbox" id="sign-up">
-                    <label for="sign-up">Yes, i want to subscribe to the Community Science Museum newsletter.</label>
-                    <a href="index.html">SEND</a>
+                    <div class="agree">
+                        <input type="checkbox" name="checkbox" id="sign-up">
+                        <label for="sign-up">Yes, i want to subscribe to the Community Science Museum newsletter.</label>
+                    </div>
+                    <a class="cta" href="index.html">SEND</a>
                 </form>
             </section>
         </main>

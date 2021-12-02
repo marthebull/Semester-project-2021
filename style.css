@@ -123,6 +123,10 @@ hr {
     height: 80px;
 }
 
+.extra {
+    display: none;
+}
+
 .o-shade {
     box-shadow: 1px 1px 30px #FFC37D;
 }
@@ -239,20 +243,6 @@ input[type=search] {
 
 .header-home nav {
     padding-top: 30px;
-}
-
-/* FORMS -----------------------------------------------------------------------------------------------------------*/
-
-input, textarea {
-    background-color: white;
-    border: 0;
-    border-radius: 5px;
-    height: 40px;
-    box-shadow: inset 0px 2px 5px 2px lightgrey;
-    padding: 10px;
-    outline: none;
-    resize: none;
-    width: 100%;
 }
 
 /* MAIN / SECTIONS ----------------------------------------------------------------------------------------------------*/
@@ -396,6 +386,39 @@ main {
     width: 100%;
     margin-top: 50px;
 }
+
+
+/* FORMS / CONTACT -------------------------------------------------------------------------------------------------*/
+
+input, textarea {
+    background-color: white;
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+    box-shadow: inset 0px 2px 4px 1px lightgrey;
+    padding: 10px;
+    outline: none;
+    resize: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+textarea {
+    height: 200px;
+}
+
+.agree {
+    display: flex;
+}
+
+input[type=checkbox] {
+    border-radius: 50%;
+    border: none;
+    width: 40px;
+    height: 20px;
+    margin-right: 20px;
+}
+
 
 
 /* FOOTER ----------------------------------------------------------------------------------------------------------*/
