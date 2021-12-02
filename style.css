@@ -25,6 +25,14 @@ h3, .h3, a {
     color: #181680;
 }
 
+p {
+    margin: 15px 0;
+}
+
+li {
+    list-style: none;
+}
+
 .cta {
     display: block;
     padding: 15px 20px;
@@ -114,12 +122,12 @@ hr {
     height: 80px;
 }
 
-.icon, .logo {
-    height: 25px;
+.o-shade {
+    box-shadow: 1px 1px 30px #FFC37D;
 }
 
-p {
-    margin: 20px 0;
+.icon, .logo {
+    height: 25px;
 }
 
 
@@ -249,7 +257,7 @@ input, textarea {
 /* MAIN / SECTIONS ----------------------------------------------------------------------------------------------------*/
 
 main > div, main > section {
-    padding: 20px 40px;
+    padding:20px 40px 40px 40px;
 }
 
 main {
@@ -350,6 +358,38 @@ main {
     display: none;
 }
 
+
+/* VISIT ----------------------------------------------------------------------------------------------------------*/
+
+.visit-img {
+    width: 100%;
+}
+
+.hours {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 15px 0;
+}
+
+.hours ul:last-child {
+    margin-left: 20px;
+}
+
+#map-visit {
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* YOUTH / TEACHERS / GET INVOLVED ---------------------------------------------------------------------------------*/
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intro-ill {
+    margin: 20px auto;
+}
 
 
 /* FOOTER ----------------------------------------------------------------------------------------------------------*/
