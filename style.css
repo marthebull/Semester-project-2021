@@ -107,6 +107,7 @@ hr {
 .circle {
     border-radius: 50%;
     width: 250px;
+    height: 250px;
     color: #2A26F5;
 }
 
@@ -389,6 +390,11 @@ main {
 
 .intro-ill {
     margin: 20px auto;
+}
+
+.intro .cta {
+    width: 100%;
+    margin-top: 50px;
 }
 
 
