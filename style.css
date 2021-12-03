@@ -253,7 +253,7 @@ main > div, main > section {
 
 section > div {
     max-width: 500px;
-    margin: auto;
+    margin: 40px auto;
 }
 
 main {
@@ -471,7 +471,7 @@ footer {
 
 @media screen and (min-width: 769px) {
 
-    /* FACILITIES */
+    /* FACILITIES (home+visit) */
     .facilities div div {
         width: 300px;
         margin: 70px auto;
@@ -482,6 +482,8 @@ footer {
         height: 300px;
         margin-bottom: 20px;
     }
+
+
 
 
 }
