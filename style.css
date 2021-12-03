@@ -251,6 +251,11 @@ main > div, main > section {
     padding:20px 40px 40px 40px;
 }
 
+section > div {
+    max-width: 500px;
+    margin: auto;
+}
+
 main {
     overflow: hidden;
 }
@@ -304,6 +309,10 @@ main {
 
 /* POSSIBILITIES/FACILITIES*/
 
+.presentations {
+    margin-top: 100px;
+}
+
 .presentation {
     position: relative;
     display: flex;
@@ -325,6 +334,10 @@ main {
 }
 
 .facilities div {
+    margin: 70px auto;
+}
+
+.facilities div div {
     width: 220px;
     margin: 70px auto;
 }
@@ -343,10 +356,7 @@ main {
 .young-stars img {
     border-radius: 10px;
     width: 100%;
-}
-
-.young-stars div {
-    display: none;
+    margin-top: 30px;
 }
 
 
@@ -369,6 +379,7 @@ main {
 #map-visit {
     width: 100%;
     margin-top: 30px;
+    border-radius: 10px;
 }
 
 /* YOUTH / TEACHERS / GET INVOLVED ---------------------------------------------------------------------------------*/
@@ -417,6 +428,7 @@ input[type=checkbox] {
     width: 40px;
     height: 20px;
     margin-right: 20px;
+    box-shadow: none;
 }
 
 
@@ -453,3 +465,23 @@ footer {
     text-align: center;
 }
 
+
+
+/* MEDIA QUERIES -------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 769px) {
+
+    /* FACILITIES */
+    .facilities div div {
+        width: 300px;
+        margin: 70px auto;
+    }
+    
+    .facilities img {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+
+
+}
