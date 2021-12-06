@@ -382,9 +382,22 @@ main {
 }
 
 #map-visit {
-    width: 100%;
-    margin-top: 30px;
+    display: block;
+    max-width: 500px;
+    margin: 30px auto;
     border-radius: 10px;
+}
+
+.visit .hr {
+    margin-bottom: 10px;
+}
+
+.visit h1 {
+    margin: 0;
+}
+
+.visit p {
+    margin-top: 0;
 }
 
 
@@ -395,8 +408,12 @@ main {
     flex-wrap: wrap;
 }
 
+.intro p {
+    max-width: 368px;
+}
+
 .intro-ill {
-    margin: 20px auto;
+    margin: 50px auto;
 }
 
 .intro .cta {
@@ -467,6 +484,10 @@ footer {
     max-width: 400px;
 }
 
+.newsletter .cta {
+    margin: 0;
+}
+
 .copyright {
     text-align: center;
 }
@@ -485,8 +506,8 @@ footer {
     } 
     
     .facilities img {
-        width: 300px;
-        height: 300px;
+        width: 270px;
+        height: 270px;
         margin-bottom: 20px;
     }
 
@@ -651,6 +672,10 @@ footer {
         max-width: 1200px;
     }
 
+    .facilities div {
+        margin: 20px auto;
+    }
+
     .facilities-info {
         margin: 0;
     }
@@ -690,7 +715,6 @@ footer {
         gap: 40px;
         position: relative;
         margin: 50px auto;
-        
     }
 
     #map {
@@ -703,12 +727,52 @@ footer {
         right: 0;
     }
 
+    /* VISIT */
+
+    .visit {
+        display: flex;
+        max-width: 1200px;
+        margin: 40px auto;
+        justify-content: space-between;
+    }
+
+    .visit-info {
+        order: 2;
+        margin: 0 0 0 40px;
+        min-width: 300px;
+    }
+
+    #map-visit {
+        width: 650px;
+        height: 100%;
+        order: 1;
+        margin: 0;
+    }
+
+    /*  YOUTH / TEACHERS / GET INVOLVED */
 
 
+    .intro-text {
+        position: relative;
+    }
 
+    .intro-ill {
+        position: absolute;
+        top:50px;
+        left: -270px;
+    }
 
+    #c3 {
+        bottom: 10px;
+        right: -150px;
+    }
 
+    #c4 {
+        top: 10px;
+        right: -350px;
+    }
 
+    
 
 
 
