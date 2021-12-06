@@ -597,17 +597,17 @@ footer {
         max-width: 600px;
     }
 
-    .join-us {
-        max-width: 440px;
-        padding-right: 50px;
-    }
-
     .presentation .circle {
-        margin-left: 30px;
+        margin-left: 20px;
     }
 
     .presentation a {
         width: 90px;
+    }
+
+    .join-us {
+        max-width: 440px;
+        padding-right: 50px;
     }
 
     .headline {
