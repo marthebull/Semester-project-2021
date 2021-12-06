@@ -500,11 +500,12 @@ footer {
 
     /* header */
 
-    .navbar {
-        height: 140px;
+    .navbar-container {
         max-width: 1200px;
+        position: relative;
         margin: 0 auto;
         padding: 20px 20px;
+        height: 140px;
     }
 
     .logo, .text-logo {
