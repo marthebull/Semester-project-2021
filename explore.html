@@ -15,35 +15,39 @@
     <body>
         <header>
             <div class="navbar">
-                <a href="index.html">
-                    <picture>
-                        <source media="(min-width: 1024px)" srcset="icons/logo/CS-logo-mobile-purple-blue.svg">
-                        <img class="logo" src="icons/Logo/CS-logo-blue.svg" alt="CSM logo">
-                    </picture>
-                </a>
-                <input type="checkbox" id="hamburger-menu">
-                <label for="hamburger-menu">
-                    <img class="icon menu-icon" src="icons/menu-blue.svg" alt="Menu icon">
-                </label>
-                <nav>
-                    <a class="active" href="explore.html">EXPLORE</a>
-                    <a href="visit.html">VISIT</a>
-                    <a href="youth.html">YOUTH</a>
-                    <a href="teachers.html">TEACHERS</a>
-                    <a href="get-involved.html">GET INVOLVED</a>
-                    <a href="contact.html">CONTACT</a>
-                </nav>
-                <form action="explore.html" method="GET">
-                    <input type="search" placeholder="Search...">
-                </form>
+                <div class="navbar-container">
+                    <a href="index.html">
+                        <picture>
+                            <source media="(min-width: 1024px)" srcset="icons/logo/CS-logo-mobile-purple-blue.svg">
+                            <img class="logo" src="icons/Logo/CS-logo-blue.svg" alt="CSM logo">
+                        </picture>
+                    </a>
+                    <input type="checkbox" id="hamburger-menu">
+                    <label for="hamburger-menu">
+                        <img class="icon menu-icon" src="icons/menu-blue.svg" alt="Menu icon">
+                    </label>
+                    <nav>
+                        <a class="active" href="explore.html">EXPLORE</a>
+                        <a href="visit.html">VISIT</a>
+                        <a href="youth.html">YOUTH</a>
+                        <a href="teachers.html">TEACHERS</a>
+                        <a href="get-involved.html">GET INVOLVED</a>
+                        <a href="contact.html">CONTACT</a>
+                    </nav>
+                    <form action="explore.html" method="GET">
+                        <input type="search" placeholder="Search...">
+                    </form>
+                </div>
             </div>
         </header>
         <main>
-            <section class="news purple">
-                <div>
-                    <h2 class="h1 text-blue">NEWS</h2>
-                    <hr>
-                    <div>
+            <section class="purple">
+                <div class="news">
+                    <div class="headline">
+                        <h2 class="h1 text-blue">NEWS</h2>
+                        <hr>
+                    </div>
+                    <div class="info-box-container">
                         <img class="icon arrow-sides" src="icons/arrow-left-blue.svg" alt="Back">
                         <div class="info-box">
                             <img src="images/night-at-the-museum.jpg" alt="Picture of the museum at night.">
@@ -73,14 +77,16 @@
                     </div>
                 </div>
             </section>
-            <section class="exhibitions">
-                <div>
-                    <h2 class="h1">EXHIBITION SPACES</h2>
-                    <hr>
-                    <div>
+            <section>
+                <div class="exhibitions">
+                    <div class="headline">
+                        <h2 class="h1">EXHIBITION SPACES</h2>
+                        <hr class="hr-orange">
+                    </div>
+                    <div class="info-box-container">
                         <img class="icon arrow-sides" src="icons/arrow-left-blue.svg" alt="Back">
                         <div class="info-box">
-                            <img src="images/dark-room-lights.jpg" alt="Image of cosmology exhibtion.">
+                            <img src="images/blue-space-engine.jpg" alt="Image of cosmology exhibtion.">
                             <h3>COSMOLOGY</h3>
                             <hr class="hr">
                             <p>
@@ -102,7 +108,7 @@
                             </p>
                         </div>
                         <div class="info-box">
-                            <img src="images/blue-space-engine.jpg" alt="Smart space ship in the making">
+                            <img src="images/finger-print.jpg" alt="Smart space ship in the making">
                             <h3>ROBOTICS & AI</h3>
                             <hr class="hr">
                             <p>

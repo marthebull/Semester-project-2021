@@ -142,7 +142,7 @@ header {
     position: relative;
 }
 
-.navbar {
+.navbar-container {
     min-height: 70px;
     padding: 20px;
     position: relative;
@@ -337,14 +337,15 @@ main {
     right: 100px;
 }
 
+
 .facilities div {
     margin: 70px auto;
 }
 
-.facilities div div {
+.facilities-info {
     width: 220px;
     margin: 70px auto;
-}
+} 
 
 .facilities img {
     width: 220px;
@@ -385,6 +386,7 @@ main {
     margin-top: 30px;
     border-radius: 10px;
 }
+
 
 /* YOUTH / TEACHERS / GET INVOLVED ---------------------------------------------------------------------------------*/
 
@@ -475,18 +477,12 @@ footer {
 
 @media screen and (min-width: 769px) {
 
-    #hamburger-menu:checked ~ form > input[type=search] {
-        position: absolute;
-        top: -10px;
-        left: 0;
-        right: 0;
-    }
 
-    /* FACILITIES (home+visit) */
-    .facilities div div {
-        width: 300px;
-        margin: 70px auto;
-    }
+    /* FACILITIES (home+visit) */ 
+    .facilities-info {
+        width: 270px;
+        margin: 30px auto;
+    } 
     
     .facilities img {
         width: 300px;
@@ -494,11 +490,38 @@ footer {
         margin-bottom: 20px;
     }
 
+    /* EXHIBITIONS / NEWS */
+
+    .exhibitions, .news {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        padding: 20px;
+    }
+
+    .info-box-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+
+    .info-box {
+        margin: 0;
+    }
+
 }
 
 @media screen and (min-width: 1024px) {
 
     /* header */
+
+    .header-home {
+        height: 100vh;
+    }
+
+    .navbar {
+        height: 140px;
+    }
 
     .navbar-container {
         max-width: 1200px;
@@ -539,6 +562,7 @@ footer {
         right: 20px;
         margin: 0;
         max-width: 565px;
+        height: 40px;
     }
 
     .welcome {
@@ -547,13 +571,140 @@ footer {
     }
 
     .welcome .cta {
-        margin: 50px 0;
+        margin: 30px 0;
         width: 320px;
     }
 
     #explore, #together {
         font-size: 4.5em;
     }
+
+    .welcome2 {
+        display: flex;
+        margin: 0 auto;
+        max-width: 1200px;
+        padding: 100px 20px;
+        justify-content: space-between;
+    }
+
+    .welcome2 div {
+        margin: 0;
+    }
+
+    .presentations {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 600px;
+    }
+
+    .join-us {
+        max-width: 440px;
+        padding-right: 50px;
+    }
+
+    .presentation .circle {
+        margin-left: 30px;
+    }
+
+    .presentation a {
+        width: 90px;
+    }
+
+    .headline {
+        flex: 100%;
+    }
+
+    .young-stars > div {
+        max-width: 1200px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 150px;
+        position: relative;
+    }
+
+    .young-stars-info {
+        width: 350px;
+    }
+
+    .young-stars img {
+        width: 350px;
+        z-index: 1;
+    }
+
+    #c1, #c2 {
+        display: block;
+        position: absolute;
+    }
+
+    #c1 {
+        left: 290px;
+        top: 100px;
+    }
+
+    #c2 {
+        top: 380px;
+        left: 320px;
+        z-index: 2;
+    }
+
+    .facilities > div:first-child {
+        max-width: 1200px;
+    }
+
+    .facilities-info {
+        margin: 0;
+    }
+
+    .facilities-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 50px;
+    }
+
+
+    /* EXHIBITIONS / NEWS */
+
+    .exhibitions, .news {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        padding: 20px;
+    }
+
+    .info-box-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 50px;
+    }
+
+    /* FOOTER */
+
+    #map {
+        display: block;
+    }
+
+    .footer-container {
+        max-width: 1200px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        position: relative;
+        margin: 50px auto;
+        
+    }
+
+    #map {
+        border-radius: 10px;
+        width: 550px;
+    }
+
+    .up-top {
+        position: absolute;
+        right: 0;
+    }
+
+
+
 
 
 

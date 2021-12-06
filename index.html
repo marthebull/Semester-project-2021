@@ -43,8 +43,8 @@
             </div>
         </header>
         <main>
-            <section>
-                <div>
+            <section class="welcome2">
+                <div class="join-us">
                     <h1 class="text-blue">COME JOIN US</h1>
                     <hr class="hr-orange">
                     <p>At the Community Science Museum where we’re committed to making science accessible to all.</p>
@@ -53,8 +53,10 @@
                     <a class="cta" href="explore.html">READ MORE</a>
                 </div>
                 <div class="presentations">
-                    <h2 class="h1 text-blue">POSSIBILITIES FOR</h2>
-                    <hr class="hr-purple">
+                    <div class="headline">
+                        <h2 class="h1 text-blue">SOMETHING FOR EVERYONE</h2>
+                        <hr class="hr-purple">
+                    </div>
                     <div class="presentation">
                         <a href="youth.html">YOUNG STARS</a>
                         <a href="youth.html">
@@ -81,11 +83,13 @@
                     </div>
                 </div>
             </section>
-            <section class="news purple">
-                <div>
-                    <h2 class="h1">NEWS</h2>
-                    <hr class="hr-blue">
-                    <div>
+            <section class="purple">
+                <div class="news">
+                    <div class="headline">
+                        <h2 class="h1">NEWS</h2>
+                        <hr class="hr-blue">
+                    </div>
+                    <div class="info-box-container">
                         <img class="icon arrow-sides" src="icons/arrow-left-blue.svg" alt="Back">
                         <div class="info-box">
                             <img src="images/night-at-the-museum.jpg" alt="Picture of the museum at night.">
@@ -115,11 +119,13 @@
                     </div>
                 </div>
             </section>
-            <section class="exhibitions">
-                <div>
-                    <h2 class="h1 text-blue">EXHIBITION SPACES</h2>
-                    <hr class="hr-orange">
-                    <div>
+            <section>
+                <div class="exhibitions">
+                    <div class="headline">
+                        <h2 class="h1 text-blue">EXHIBITION SPACES</h2>
+                        <hr class="hr-orange">
+                    </div>
+                    <div class="info-box-container">
                         <img class="icon arrow-sides" src="icons/arrow-left-blue.svg" alt="Back">
                         <div class="info-box">
                             <img src="images/skeleton-evolution.jpg" alt="Image of monkeyskeleton to demonstrate evolution.">
@@ -155,73 +161,83 @@
             <section class="young-stars light">
                 <div>
                     <img src="images/young-stars-girl.jpg" alt="Smiling member of the Young stars club.">
-                    <div class="circle dark big extra"></div>
-                    <div class="circle blue small o-shade extra"></div>
-                    <h2 class="h1">YOUNG STARS CLUB</h2>
-                    <hr class="hr-orange">
-                    <p>
-                        Are you a young person looking to learn more about science? Come on down to our museum, there’s plenty to see and do.
-                    </p>
-                    <p>You can learn about Newtonian physics from our bumper swing, or why not travel back in time and meet our resident Woolly Mammoth? Our exhibits are designed to be accessible for interested minds, so make sure you come ready to learn and explore.
-                    </p>
-                    <a class="cta blue" href="youth.html">READ MORE</a>
+                    <div id="c1" class="circle dark big o-shade extra"></div>
+                    <div id="c2" class="circle purple small o-shade extra"></div>
+                    <div class="young-stars-info">
+                        <h2 class="h1">YOUNG STARS CLUB</h2>
+                        <hr class="hr-orange">
+                        <p>
+                            Are you a young person looking to learn more about science? Come on down to our museum, there’s plenty to see and do.
+                        </p>
+                        <p>You can learn about Newtonian physics from our bumper swing, or why not travel back in time and meet our resident Woolly Mammoth? Our exhibits are designed to be accessible for interested minds, so make sure you come ready to learn and explore.
+                        </p>
+                        <a class="cta blue" href="youth.html">READ MORE</a>
+                    </div>
                 </div>
             </section>
             <section class="facilities">
                 <div>
-                    <h2 class="h1 text-blue">READY?</h2>
-                    <hr class="hr-purple">
                     <div>
-                        <img class="circle" src="images/museum-fasade.jpg" alt="Colorful museum fasade.">
-                        <h3>ADMISSION</h3>
-                        <hr class="hr">
-                        <p>
-                            The entrance is free for all. The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired. 
-                        </p>
+                        <h2 class="h1 text-blue">FACILITIES</h2>
+                        <hr class="hr-purple">
                     </div>
-                    <div>
-                        <img class="circle" src="images/smoothies.jpg" alt="Smoothie from the museum kafé.">
-                        <h3>FOOD & DRINK</h3>
-                        <hr class="hr">
-                        <p>
-                            There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.
-                        </p>
-                    </div>
-                    <div>
-                        <img class="circle" src="images/museum-store.jpg" alt="Two people shopping in the science museum shop. ">
-                        <h3>SHOP</h3>
-                        <hr class="hr">
-                        <p>
-                            Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.
-                        </p>
+                    <div class="facilities-container">
+                        <div class="facilities-info">
+                            <img class="circle" src="images/museum-fasade.jpg" alt="Colorful museum fasade.">
+                            <h3>ADMISSION</h3>
+                            <hr class="hr">
+                            <p>
+                                The entrance is free for all. The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired. 
+                            </p>
+                        </div>
+                        <div class="facilities-info">
+                            <img class="circle" src="images/smoothies.jpg" alt="Smoothie from the museum kafé.">
+                            <h3>FOOD & DRINK</h3>
+                            <hr class="hr">
+                            <p>
+                                There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.
+                            </p>
+                        </div>
+                        <div class="facilities-info">
+                            <img class="circle" src="images/museum-store.jpg" alt="Two people shopping in the science museum shop. ">
+                            <h3>SHOP</h3>
+                            <hr class="hr">
+                            <p>
+                                Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
         </main>
         <footer>
-            <div class="up-top">
-                <img class="icon" src="icons/arrow-up.svg" alt="Upwards pointing arrow">
-                <a href="index.html" class="h1 text-orange">TO THE TOP!</a>
-            </div>
-            <div>
-                <img id="map" src="images/museum-map-location.jpg" alt="Museum location shown on map">
-            </div>
-            <div class="social">
-                <h2 class="h1 text-orange">SOCIAL</h2>
-                <hr class="hr-purple"> 
-                <img class="icon" src="icons/instagram.svg" alt="Instagram logo">
-                <img class="icon" src="icons/twitter-sign.svg" alt="Twitter logo">
-                <img class="icon" src="icons/linkedin.svg" alt="Linkedin logo">
-                <img class="icon" src="icons/facebook.svg" alt="Facebook logo">
-                <p>Dokkeskjærskaien 1</p>
-                <p>5006 Bergen</p> 
-                <p>Tlf: 000 00 000</p>
-            </div>
-            <div class="newsletter">
-                <h2 class="h1 text-purple">NEWSLETTER</h2>
-                <hr class="hr-blue">
-                <input type="email" placeholder="Email address">
-                <a class="cta" href="index.html">SIGN UP</a>
+            <div class="footer-container">
+                <div class="up-top">
+                    <img class="icon" src="icons/arrow-up.svg" alt="Upwards pointing arrow">
+                    <a href="index.html" class="h1 text-orange">TO THE TOP!</a>
+                </div>
+                <div>
+                    <img id="map" src="images/museum-map-location.jpg" alt="Museum location shown on map">
+                </div>
+                <div>
+                    <div class="social">
+                        <h2 class="h1 text-orange">SOCIAL</h2>
+                        <hr class="hr-purple"> 
+                        <img class="icon" src="icons/instagram.svg" alt="Instagram logo">
+                        <img class="icon" src="icons/twitter-sign.svg" alt="Twitter logo">
+                        <img class="icon" src="icons/linkedin.svg" alt="Linkedin logo">
+                        <img class="icon" src="icons/facebook.svg" alt="Facebook logo">
+                        <p>Dokkeskjærskaien 1</p>
+                        <p>5006 Bergen</p> 
+                        <p>Tlf: 000 00 000</p>
+                    </div>
+                    <div class="newsletter">
+                        <h2 class="h1 text-purple">NEWSLETTER</h2>
+                        <hr class="hr-blue">
+                        <input type="email" placeholder="Email address">
+                        <a class="cta" href="index.html">SIGN UP</a>
+                    </div>
+                </div>
             </div>
             <p class="copyright">&copy;2021. All rights reserved.</p>
         </footer>
