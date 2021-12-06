@@ -631,7 +631,7 @@ footer {
         z-index: 1;
     }
 
-    #c1, #c2 {
+    .extra {
         display: block;
         position: absolute;
     }
