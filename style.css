@@ -148,6 +148,10 @@ header {
     position: relative;
 }
 
+input[type=search] {
+    height: 30px;
+}
+
 nav, input[type=search], #hamburger-menu {
     display: none;
 }
@@ -471,6 +475,13 @@ footer {
 
 @media screen and (min-width: 769px) {
 
+    #hamburger-menu:checked ~ form > input[type=search] {
+        position: absolute;
+        top: -10px;
+        left: 0;
+        right: 0;
+    }
+
     /* FACILITIES (home+visit) */
     .facilities div div {
         width: 300px;
@@ -483,7 +494,10 @@ footer {
         margin-bottom: 20px;
     }
 
+}
 
+@media screen and (min-width: 1024px) {
 
+    
 
 }
