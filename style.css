@@ -541,6 +541,20 @@ footer {
         max-width: 565px;
     }
 
+    .welcome {
+        max-width: 1200px;
+        text-align: left;
+    }
+
+    .welcome .cta {
+        margin: 50px 0;
+        width: 320px;
+    }
+
+    #explore, #together {
+        font-size: 4.5em;
+    }
+
 
 
 
