@@ -694,12 +694,27 @@ footer {
         margin: 0 auto;
         display: grid;
         padding: 20px;
+        position: relative;
     }
 
     .info-box-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 50px;
+    }
+
+    .arrow-sides {
+        display: block;
+        position: absolute;
+        top: 450px;
+    }
+
+    .left {
+        left: -30px;
+    }
+
+    .right {
+    right: -30px;
     }
 
     /* FOOTER */
@@ -725,6 +740,10 @@ footer {
     .up-top {
         position: absolute;
         right: 0;
+    }
+
+    .newsletter {
+        margin: 80px 0 0 0;
     }
 
     /* VISIT */
@@ -771,6 +790,53 @@ footer {
         top: 10px;
         right: -350px;
     }
+
+    #ys-boy {
+        width: 105%;
+        margin-top: 45px;
+    }
+
+    .involved-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        max-width: 1200px;
+        gap: 50px;
+    }
+
+    .involved-info div {
+        width: 500px;
+    }
+
+    /* CONTACT */
+
+    .contact-form {
+        position: relative;
+    }
+
+    .form {
+        z-index: 2;
+        position: relative;
+    }
+
+    #c5 {
+        top: -20px;
+        right: -130px;
+        z-index: 1;
+    }
+
+    #c6 {
+        top: 350px;
+        left: -250px;
+    }
+
+    #c7 {
+        top: 230px;
+        right: -150px;
+    }
+
+
+
 
     
 
