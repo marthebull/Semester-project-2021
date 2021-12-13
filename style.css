@@ -498,7 +498,7 @@ footer {
 
 @media screen and (min-width: 769px) {
 
-    header-home {
+    .header-home {
         background-image: url(images/scientific-machine.jpg);
     }
 
