@@ -192,7 +192,7 @@ input[type=search] {
 /* HEADER HOME -----------------------------------------------------------------------------------------------------*/
 
 .header-home {
-    background-image: url(images/scientific-machine.jpg);
+    background-image: url(images/scientific-machine-mobile.jpg);
     background-position: center top;
     background-size: cover;
     height: 90vh;
@@ -498,6 +498,9 @@ footer {
 
 @media screen and (min-width: 769px) {
 
+    header-home {
+        background-image: url(images/scientific-machine.jpg);
+    }
 
     /* FACILITIES (home+visit) */ 
     .facilities-info {
