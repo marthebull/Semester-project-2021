@@ -43,8 +43,8 @@ li {
 }
 
 .cta:hover {
-    background-color: #181680;
-    color: #DBC8FB;
+    background-color: #DBC8FB;
+    color: #181680;
 }
 
 .blue {
@@ -170,6 +170,10 @@ nav a {
     display: block;
     text-align: right;
     margin-top: 10px;
+}
+
+nav a:hover {
+    font-weight: bolder;
 }
 
 #hamburger-menu:checked ~ nav {
