@@ -765,6 +765,7 @@ footer {
         gap: 40px;
         position: relative;
         margin: 50px auto;
+        padding: 20px;
     }
 
     #map {
@@ -784,8 +785,8 @@ footer {
     /* EXPLORE */
 
     #c8 {
-    top: 130px;
-    left: -380px;
+    top: 220px;
+    left: -300px;
     }
 
     #c9 {
