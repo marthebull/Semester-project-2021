@@ -501,6 +501,7 @@ footer {
     .header-home {
         background: url(images/scientific-machine.jpg), #181680;
         background-position: center top;
+        background-repeat: no-repeat;
     }
 
     /* FACILITIES (home+visit) */ 
