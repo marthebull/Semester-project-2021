@@ -396,7 +396,7 @@ main {
 
 #map-visit {
     display: block;
-    max-width: 500px;
+    max-width: 270px;
     margin: 30px auto;
     border-radius: 10px;
 }
@@ -551,6 +551,14 @@ footer {
 
     .info-box {
         margin: 0;
+    }
+
+
+    #map-visit {
+        display: block;
+        max-width: 500px;
+        margin: 30px auto;
+        border-radius: 10px;
     }
 
 }
