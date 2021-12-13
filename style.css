@@ -479,6 +479,14 @@ footer {
     display: none;
 }
 
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:550px;
+    width:550px;
+    border-radius: 10px;
+}
+
 .social .icon {
     margin-bottom: 10px;
 }
