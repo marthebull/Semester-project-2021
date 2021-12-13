@@ -315,9 +315,9 @@ main {
     right: 20px;
 }
 
-.new-ex div h3 {
+.new-ex div p {
     position: absolute;
-    top: 10px;
+    top: -3px;
     right: -3px;
 }
 
@@ -330,7 +330,7 @@ main {
     margin-top: 100px;
 }
 
-.presentation:hover {
+.presentation a:hover {
     font-weight: bolder;
 }
 
