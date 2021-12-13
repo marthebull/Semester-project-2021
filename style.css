@@ -492,7 +492,7 @@ footer {
     margin-bottom: 80px;
 }
 
-.up-top:hover {
+.up-top img:hover, .up-top a:hover {
     font-size: 3em;
 }
 
