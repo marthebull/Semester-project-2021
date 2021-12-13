@@ -255,7 +255,7 @@ input[type=search] {
 }
 
 .header-home .navbar a:hover {
-    color: #FFC37D;
+    font-weight: bolder;
 }
 
 .header-home nav {
