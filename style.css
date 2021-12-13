@@ -492,6 +492,10 @@ footer {
     margin-bottom: 80px;
 }
 
+.up-top:hover {
+    font-size: 1.2em;
+}
+
 .newsletter {
     margin-bottom: 50px;
     max-width: 400px;
