@@ -254,6 +254,10 @@ input[type=search] {
     color: white;
 }
 
+.header-home .navbar a:hover {
+    color: #FFC37D;
+}
+
 .header-home nav {
     padding-top: 30px;
 }
