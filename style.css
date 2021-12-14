@@ -354,7 +354,6 @@ main {
     right: 100px;
 }
 
-
 .facilities div {
     margin: 70px auto;
 }
@@ -380,7 +379,6 @@ main {
     width: 100%;
     margin-top: 30px;
 }
-
 
 /* VISIT ----------------------------------------------------------------------------------------------------------*/
 
@@ -417,7 +415,6 @@ main {
     margin-top: 0;
 }
 
-
 /* YOUTH / TEACHERS / GET INVOLVED ---------------------------------------------------------------------------------*/
 
 .intro {
@@ -437,7 +434,6 @@ main {
     width: 100%;
     margin-top: 50px;
 }
-
 
 /* FORMS / CONTACT -------------------------------------------------------------------------------------------------*/
 
@@ -470,8 +466,6 @@ input[type=checkbox] {
     margin-right: 20px;
     box-shadow: none;
 }
-
-
 
 /* FOOTER ----------------------------------------------------------------------------------------------------------*/
 
@@ -512,8 +506,6 @@ footer {
 .copyright {
     text-align: center;
 }
-
-
 
 /* MEDIA QUERIES -------------------------------------------------------------------------------------------*/
 
@@ -557,14 +549,12 @@ footer {
         margin: 0;
     }
 
-
     #map-visit {
         display: block;
         max-width: 500px;
         margin: 30px auto;
         border-radius: 10px;
     }
-
 }
 
 @media screen and (min-width: 1024px) {
@@ -721,7 +711,6 @@ footer {
         gap: 50px;
     }
 
-
     /* EXHIBITIONS / NEWS */
 
     .exhibitions, .news {
@@ -785,21 +774,19 @@ footer {
     /* EXPLORE */
 
     #c8 {
-    top: 220px;
-    left: -300px;
+        top: 220px;
+        left: -300px;
     }
 
     #c9 {
-    top: 50px;
-    left: 500px;
+        top: 50px;
+        left: 500px;
     }
 
     #c10 {
-    top: 250px;
-    left: 650px;
+        top: 250px;
+        left: 650px;
     }
-
-
 
     /* VISIT */
 
@@ -828,7 +815,6 @@ footer {
     }
 
     /*  YOUTH / TEACHERS / GET INVOLVED */
-
 
     .intro-text {
         position: relative;
@@ -893,12 +879,4 @@ footer {
         top: 230px;
         right: -150px;
     }
-
-
-
-
-    
-
-
-
 }
