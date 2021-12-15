@@ -9,7 +9,7 @@
     letter-spacing: 0.1rem;
 }
 
-h1, h2, .h1 {
+h1, h2, .h1, #qm {
     font-family: 'Jost', Verdana, Tahoma, sans-serif;
     font-size: 1.5rem;
     font-weight: 900;
@@ -812,6 +812,22 @@ footer {
 
     .got-questions {
         margin: 100px auto;
+        position: relative;
+    }
+
+    #c11 {
+        top: -20px;
+        right: -200px;
+    }
+
+    #c12 {
+        top: 20px;
+        left: -350px;
+    }
+
+    #c13 {
+        top: 180px;
+        right: -300px;
     }
 
     /*  YOUTH / TEACHERS / GET INVOLVED */
