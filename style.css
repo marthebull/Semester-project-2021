@@ -9,7 +9,7 @@
     letter-spacing: 0.1rem;
 }
 
-h1, h2, .h1, #qm {
+h1, h2, .h1 {
     font-family: 'Jost', Verdana, Tahoma, sans-serif;
     font-size: 1.5rem;
     font-weight: 900;
